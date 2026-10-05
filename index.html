@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#07101f">
+  <meta name="description" content="Téléchargez MarketGo, la marketplace qui connecte clients, vendeurs et coursiers.">
+  <title>MarketGo — Télécharger l'application</title>
+  <style>
+    :root{--bg:#050b16;--card:#0e1729;--text:#f4f8ff;--muted:#aab7ca;--cyan:#10c9d5;--green:#19b34b;--orange:#ff9f0a;--line:#22304a}
+    *{box-sizing:border-box} html{scroll-behavior:smooth}
+    body{margin:0;background:radial-gradient(circle at 15% 0%,#0b2840 0,#050b16 38%),var(--bg);color:var(--text);font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif}
+    a{text-decoration:none;color:inherit}
+    .wrap{width:min(1120px,92%);margin:auto}
+    header{padding:20px 0;border-bottom:1px solid rgba(255,255,255,.07);position:sticky;top:0;background:rgba(5,11,22,.84);backdrop-filter:blur(14px);z-index:10}
+    nav{display:flex;align-items:center;justify-content:space-between;gap:18px}
+    .brand{display:flex;align-items:center;gap:12px;font-weight:800;font-size:20px}
+    .brand img{width:46px;height:46px;border-radius:13px;object-fit:cover}
+    .navbtn{padding:10px 16px;border:1px solid var(--line);border-radius:999px;color:#dbe6f5}
+    .hero{padding:72px 0 55px;display:grid;grid-template-columns:1.05fr .95fr;gap:55px;align-items:center}
+    .badge{display:inline-flex;padding:8px 12px;border:1px solid rgba(16,201,213,.3);background:rgba(16,201,213,.08);border-radius:999px;color:#6fe8ee;font-weight:700;font-size:13px}
+    h1{font-size:clamp(42px,6vw,74px);line-height:.98;margin:18px 0}
+    h1 span{background:linear-gradient(90deg,#18c9d5,#31d85b,#ffab18);-webkit-background-clip:text;background-clip:text;color:transparent}
+    .lead{font-size:20px;line-height:1.65;color:var(--muted);max-width:650px}
+    .actions{display:flex;flex-wrap:wrap;gap:14px;margin-top:28px}
+    .download{display:inline-flex;align-items:center;justify-content:center;gap:10px;padding:16px 25px;border-radius:14px;background:linear-gradient(90deg,#0fc8d5,#20c95c);color:#03101a;font-weight:900;box-shadow:0 12px 35px rgba(16,201,213,.2)}
+    .secondary{padding:16px 22px;border:1px solid var(--line);border-radius:14px;color:#e5edf8}
+    .meta{display:flex;gap:18px;flex-wrap:wrap;margin-top:20px;color:#8fa1b9;font-size:14px}
+    .logo-card{display:flex;justify-content:center;align-items:center}
+    .logo-card img{width:min(410px,82%);aspect-ratio:1;object-fit:contain;border-radius:34px;box-shadow:0 35px 90px rgba(0,0,0,.55)}
+    section{padding:62px 0}
+    .section-title{text-align:center;margin-bottom:34px}
+    .section-title h2{font-size:36px;margin:0 0 10px}
+    .section-title p{color:var(--muted);margin:0}
+    .features{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+    .feature{background:linear-gradient(180deg,#101b30,#0a1221);border:1px solid var(--line);border-radius:20px;padding:22px}
+    .icon{font-size:27px}.feature h3{margin:14px 0 8px}.feature p{color:var(--muted);line-height:1.55;margin:0}
+    .shots{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+    .shot{background:#0b1322;border:1px solid var(--line);border-radius:24px;padding:8px;overflow:hidden}
+    .shot img{display:block;width:100%;height:auto;border-radius:18px}
+    .shot figcaption{padding:12px 8px 7px;color:#c8d5e7;font-size:14px}
+    .about{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+    .panel{background:linear-gradient(180deg,#101a2e,#0a1220);border:1px solid var(--line);border-radius:24px;padding:28px}
+    .panel p,.panel li{color:var(--muted);line-height:1.7}
+    .cta{padding:46px;border-radius:30px;background:linear-gradient(110deg,rgba(16,201,213,.14),rgba(31,199,92,.1));border:1px solid rgba(16,201,213,.25);text-align:center}
+    footer{padding:30px 0 45px;color:#7f90a8;text-align:center;border-top:1px solid rgba(255,255,255,.07)}
+    @media(max-width:900px){.hero,.about{grid-template-columns:1fr}.features{grid-template-columns:repeat(2,1fr)}.shots{grid-template-columns:repeat(3,1fr)}}
+    @media(max-width:600px){header{position:static}.hero{padding-top:45px}.features{grid-template-columns:1fr}.shots{grid-template-columns:repeat(2,1fr)}.logo-card{order:-1}.logo-card img{width:62%}.actions>*{width:100%}.cta{padding:30px 20px}}
+  </style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <nav>
+      <a class="brand" href="#"><img src="assets/logo.png" alt="Logo MarketGo"><span>MarketGo</span></a>
+      <a class="navbtn" href="#screens">Voir l'application</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="wrap hero">
+    <div>
+      <div class="badge">📱 APPLICATION ANDROID • TÉLÉCHARGEMENT GRATUIT</div>
+      <h1>Le marché à<br><span>portée de main.</span></h1>
+      <p class="lead">MarketGo connecte clients, vendeurs et coursiers dans une expérience simple et moderne. Recherchez, achetez, vendez, commandez et faites livrer vos produits.</p>
+      <div class="actions">
+        <a class="download" href="MarketGo.apk" download>⬇️ Télécharger MarketGo</a>
+        <a class="secondary" href="#screens">Découvrir l'application</a>
+      </div>
+      <div class="meta"><span>✓ Android</span><span>✓ APK officiel</span><span>✓ Gratuit</span><span>✓ MarketGo</span></div>
+    </div>
+    <div class="logo-card"><img src="assets/logo.png" alt="MarketGo"></div>
+  </section>
+
+  <section class="wrap">
+    <div class="section-title"><h2>Tout ce qu'il vous faut</h2><p>Une plateforme pensée pour simplifier le commerce au quotidien.</p></div>
+    <div class="features">
+      <article class="feature"><div class="icon">🛍️</div><h3>Acheter</h3><p>Recherchez des produits et passez vos commandes rapidement.</p></article>
+      <article class="feature"><div class="icon">🏪</div><h3>Vendre</h3><p>Publiez et gérez vos produits depuis votre espace vendeur.</p></article>
+      <article class="feature"><div class="icon">🚚</div><h3>Livrer</h3><p>Facilitez la mise en relation avec les coursiers pour vos commandes.</p></article>
+      <article class="feature"><div class="icon">🔔</div><h3>Rester informé</h3><p>Recevez les notifications liées aux commandes, paiements et livraisons.</p></article>
+    </div>
+  </section>
+
+  <section class="wrap" id="screens">
+    <div class="section-title"><h2>Découvrez MarketGo</h2><p>Quelques écrans de l'application.</p></div>
+    <div class="shots">
+      <figure class="shot"><img src="assets/screen-home.jpg" alt="Accueil MarketGo"><figcaption>Accueil & produits</figcaption></figure>
+      <figure class="shot"><img src="assets/screen-seller.jpg" alt="Espace vendeur MarketGo"><figcaption>Espace vendeur</figcaption></figure>
+      <figure class="shot"><img src="assets/screen-orders.jpg" alt="Commandes MarketGo"><figcaption>Commandes</figcaption></figure>
+      <figure class="shot"><img src="assets/screen-profile.jpg" alt="Profil MarketGo"><figcaption>Profil</figcaption></figure>
+      <figure class="shot"><img src="assets/screen-notifications.jpg" alt="Notifications MarketGo"><figcaption>Notifications</figcaption></figure>
+      <figure class="shot"><img src="assets/screen-cart.jpg" alt="Panier MarketGo"><figcaption>Panier & livraison</figcaption></figure>
+      <figure class="shot"><img src="assets/screen-courier.jpg" alt="Espace coursier MarketGo"><figcaption>Espace coursier</figcaption></figure>
+    </div>
+  </section>
+
+  <section class="wrap">
+    <div class="about">
+      <div class="panel">
+        <h2>Pourquoi MarketGo ?</h2>
+        <p>MarketGo est conçu pour rapprocher les clients, les vendeurs et les livreurs au sein d'un même écosystème numérique.</p>
+        <ul>
+          <li>Recherche rapide de produits</li>
+          <li>Espaces acheteur et vendeur</li>
+          <li>Gestion des commandes</li>
+          <li>Notifications en temps réel</li>
+          <li>Organisation des livraisons</li>
+        </ul>
+      </div>
+      <div class="panel">
+        <h2>Installation</h2>
+        <p>1. Appuyez sur <strong>Télécharger MarketGo</strong>.</p>
+        <p>2. Ouvrez le fichier <strong>MarketGo.apk</strong>.</p>
+        <p>3. Autorisez l'installation depuis cette source si Android vous le demande.</p>
+        <p>4. Installez l'application et lancez MarketGo.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="wrap">
+    <div class="cta">
+      <h2>Prêt à utiliser MarketGo ?</h2>
+      <p class="lead" style="margin:10px auto 24px">Téléchargez gratuitement l'application Android et rejoignez l'expérience MarketGo.</p>
+      <a class="download" href="MarketGo.apk" download>⬇️ Télécharger l'APK MarketGo</a>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">© 2026 MarketGo — Achetez. Vendez. Livrez.</div>
+</footer>
+</body>
+</html>
